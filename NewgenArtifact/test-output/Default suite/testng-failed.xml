@@ -3,22 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Nitika.newGenChrome">
-        <methods>
-          <include name="clkOffset"/>
-          <include name="initialize"/>
-          <include name="teardown"/>
-          <include name="setBroswerSize"/>
-          <include name="loginVerify"/>
-        </methods>
-      </class> <!-- Nitika.newGenChrome -->
       <class name="Nitika.newGenAssignment">
         <methods>
-          <include name="clkOffset"/>
-          <include name="setBroswerSize"/>
+          <include name="loginVerifyOnEdge"/>
+          <include name="getStarted"/>
           <include name="teardown"/>
-          <include name="loginVerify"/>
-          <include name="initialize"/>
         </methods>
       </class> <!-- Nitika.newGenAssignment -->
     </classes>
